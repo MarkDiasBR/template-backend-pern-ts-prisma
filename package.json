@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "prisma migrate deploy && prisma migrate seed && node dist/src/server.js",
+    "start": "npx prisma migrate deploy && npx prisma db seed && node dist/src/server.js",
     "build": "tsc --project tsconfig.build.json && tsc-alias",
-    "seed": "",
     "dev": "nodemon src/server.ts",
     "test": "dotenv -e .env.test prisma migrate deploy && dotenv -e .env.test jest -- -i",
     "test:coverage": "npm run test -- --coverage",

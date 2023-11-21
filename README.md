@@ -16,6 +16,10 @@ This repository is a robust back-end template built using TypeScript, Express.js
 
 This template is designed to streamline the development process, allowing developers to focus on building application logic rather than setting up configurations from scratch.
 
+## Deploy
+
+[https://template-backend-pern-ts-prisma-api.onrender.com/](https://template-backend-pern-ts-prisma-api.onrender.com/)
+
 ## Getting Started
 
 To get started with this template, follow these steps:
